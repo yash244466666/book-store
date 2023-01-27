@@ -79,7 +79,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
 
 <!-- - [Live Demo Link](https://lucent-profiterole-373d75.netlify.app/) -->
 
@@ -95,8 +95,8 @@ Clone this [repository](https://github.com/yash244466666/book-store.git) to your
 
 ```sh
   cd my-folder
-  git clone git@github.com:yash244466666/math-magicians.git 
-  cd math-magicians
+  git clone git@github.com:yash244466666/book-store.git
+  cd book-store
 ```
 
 ### Install
@@ -144,7 +144,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/yash244466666/math-magicians/issues).
+Feel free to check the [issues page](https://github.com/yash244466666/book-store/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
