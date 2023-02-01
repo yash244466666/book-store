@@ -1,6 +1,7 @@
 import React from 'react';
 import Title from './author';
-import Add from './form';
+// eslint-disable-next-line
+import Add from './form.js';
 import '../styles/app.css';
 
 function Store() {
