@@ -1,25 +1,20 @@
 import React from 'react';
+import '../styles/app.css';
 
-const Form = () => (
-  <>
-    <div className="form">
-      <h4>ADD NEW BOOK</h4>
-      <form className="addBookForm">
-        <input type="text" placeholder="Book Title" required />
-        <input type="text" placeholder="Author" />
-        <select>
-          <option value="Action">Action</option>
-          <option value="Biography">Biography</option>
-          <option value="History">History</option>
-          <option value="Horror">Horror</option>
-          <option value="Kids">Kids</option>
-          <option value="Learning">Learning</option>
-          <option value="Sci-Fi">Sci-Fi</option>
-        </select>
-        <button type="submit">ADD BOOK</button>
-      </form>
-    </div>
-  </>
-);
-
-export default Form;
+function Add() {
+  return (
+    <form className="form-bar">
+      <h2>Add books</h2>
+      <div className="title-bar">
+        <input type="text" id="text" placeholder="title-book" />
+      </div>
+      <div className="author-bar">
+        <input type="text" id="text-author" placeholder="Author-book" />
+      </div>
+      <button type="submit" className="add-book">
+        Add Book
+      </button>
+    </form>
+  );
+}
+export { Add as default };
