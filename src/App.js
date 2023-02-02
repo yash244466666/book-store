@@ -1,35 +1,18 @@
-import { Route, Routes, Link } from 'react-router-dom';
-import './styles/app.css';
 import React from 'react';
-import Store from './components/listbooks';
-import Category from './components/checkstatus';
+import { Route, Routes } from 'react-router-dom';
+import './style/App.css';
+import Navbar from './components/Navbar';
+import BooksList from './components/BooksList';
+import Categories from './components/Categories';
 
-function App() {
-  return (
-    <>
-      <nav className="nav-bar">
-        <h1>Bookstore CMS</h1>
-        <ul className="links">
-          <li>
-            {' '}
-            <Link className="Books" to="/">
-              Books
-            </Link>
-          </li>
-          <li>
-            {' '}
-            <Link className="category" to="/Category">
-              Category
-            </Link>
-          </li>
-        </ul>
-      </nav>
+const App = () => (
+  <div className="app">
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<BooksList />} />
+      <Route path="/categories" element={<Categories />} />
+    </Routes>
+  </div>
+);
 
-      <Routes>
-        <Route path="/" element={<Store />} />
-        <Route path="/Category" element={<Category />} />
-      </Routes>
-    </>
-  );
-}
-export { App as default };
+export default App;
