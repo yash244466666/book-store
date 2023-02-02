@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --skyblue: #0290ff;
+  --blue: #4386bf;
+  --indigo: #307bbe;
+  --gray: #e8e8e8;
+  --black: #121212;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Navbar  */
+.navbar {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.25rem 1rem;
+  border-bottom: solid 1px var(--gray);
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link.active {
+  color: #000;
+}
+
+.book {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  font-family: 'Roboto Slab', serif;
+  border: solid 1px var(--gray);
+  border-radius: 4px;
+  padding: 2rem;
+}
+
+.btn-group {
+  display: flex;
+}
+
+/* Progress circle  */
+.progress-bar {
+  --value: 54;
+
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(
+      closest-side,
+      white 80%,
+      transparent 0 99.9%,
+      white 0
+    ),
+    conic-gradient(var(--skyblue) calc(var(--value) * 1%), var(--gray) 0);
+}
