@@ -24,24 +24,26 @@ body {
 
 #root {
   /* background-color: #f4f5f9; */
-  padding: 5rem 4rem;
+  width: 90%;
+  margin: 5rem auto;
 }
 
 .app {
   box-shadow: 0 0 400px 0 #f1f2f6;
-
-  /* -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); */
 }
 
 /* Navbar  */
+
+.navbar,
+.bookslist-container {
+  padding: 1rem 4rem !important;
+}
+
 .navbar {
-  width: 100%;
   background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 4rem;
   border-bottom: solid 1px var(--gray);
 }
 
@@ -104,7 +106,6 @@ article {
 
 /* Bookslist  */
 .bookslist-container {
-  padding: 3rem 1rem 2rem 1rem;
   background-color: #fafafa;
 }
 
@@ -113,11 +114,11 @@ article {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  width: 80%;
+  width: 100%;
 }
 
 .book {
-  width: 117%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -126,7 +127,6 @@ article {
   border: solid 1px var(--gray);
   border-radius: 4px;
   padding: 2rem;
-  margin: 0 0 0 -6.3rem;
 }
 
 .book-info {
@@ -245,9 +245,9 @@ article {
 
 /* Bookform  */
 .form-container {
-  padding: 2rem 0 100px 0;
+  padding: 2rem 0;
   margin-top: 2rem;
-  width: 94%;
+  width: 100%;
   border-top: solid 2px var(--gray);
 }
 
@@ -257,8 +257,9 @@ article {
 }
 
 .book-form {
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 2rem;
 }
 
