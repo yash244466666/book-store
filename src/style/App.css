@@ -19,10 +19,19 @@
 body {
   /* background-color: #fafafa; */
   font-family: 'Montserrat', sans-serif;
+  background-color: #f4f5f9;
 }
 
 #root {
-  background-color: #fafafa;
+  /* background-color: #f4f5f9; */
+  padding: 5rem 4rem;
+}
+
+.app {
+  box-shadow: 0 0 400px 0 #f1f2f6;
+
+  /* -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); */
 }
 
 /* Navbar  */
@@ -32,7 +41,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.25rem 1rem;
+  padding: 1rem 4rem;
   border-bottom: solid 1px var(--gray);
 }
 
@@ -75,7 +84,7 @@ nav {
   height: 3rem;
   border-radius: 50%;
   color: var(--blue);
-  font-size: 2rem;
+  font-size: 1rem;
   transition: all 0.3s;
 }
 
@@ -95,7 +104,8 @@ article {
 
 /* Bookslist  */
 .bookslist-container {
-  padding: 1rem;
+  padding: 3rem 1rem 2rem 1rem;
+  background-color: #fafafa;
 }
 
 .bookslist {
@@ -107,7 +117,7 @@ article {
 }
 
 .book {
-  width: 100%;
+  width: 117%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -116,6 +126,7 @@ article {
   border: solid 1px var(--gray);
   border-radius: 4px;
   padding: 2rem;
+  margin: 0 0 0 -6.3rem;
 }
 
 .book-info {
@@ -234,9 +245,9 @@ article {
 
 /* Bookform  */
 .form-container {
-  padding: 2rem 0;
+  padding: 2rem 0 100px 0;
   margin-top: 2rem;
-  width: 80%;
+  width: 94%;
   border-top: solid 2px var(--gray);
 }
 
