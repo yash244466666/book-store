@@ -79,9 +79,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
+## 🚀 Live Demo <a name="live-demo"></a>
 
-<!-- - [Live Demo Link](https://lucent-profiterole-373d75.netlify.app/) -->
+- [Live Demo Link](https://stupendous-kitten-c6066f.netlify.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
